@@ -1,0 +1,86 @@
+{
+  "posts": [
+    {
+      "title": "Introduccion a React",
+      "body": "React permite construir interfaces a partir de componentes reutilizabl",
+      "userId": 1,
+      "id": "1"
+    },
+    {
+      "id": "3",
+      "userId": 2,
+      "title": "TypeScript en frontend",
+      "body": "TypeScript agrega tipos para detectar errores antes de ejecutar la app."
+    },
+    {
+      "id": "4",
+      "userId": 2,
+      "title": "Renderizado de listas",
+      "body": "Se usa map para transformar arreglos de datos en elementos de interfaz."
+    },
+    {
+      "id": "5",
+      "userId": 3,
+      "title": "Formularios controlados",
+      "body": "Un input controlado refleja su valor desde el estado del componente."
+    },
+    {
+      "id": "6",
+      "userId": 3,
+      "title": "Manejo de errores",
+      "body": "Siempre debemos mostrar estados de carga y error al consumir APIs."
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "postId": 1,
+      "name": "Ana Ruiz",
+      "email": "ana@example.com",
+      "body": "Me gusto la explicacion inicial, esta clara para principiantes."
+    },
+    {
+      "id": "2",
+      "postId": 1,
+      "name": "Carlos Soto",
+      "email": "carlos@example.com",
+      "body": "Agregaria un ejemplo de componentes con props para reforzar."
+    },
+    {
+      "id": "3",
+      "postId": 2,
+      "name": "Luis Mena",
+      "email": "luis@example.com",
+      "body": "useEffect se entiende mejor cuando se compara con el ciclo de vida."
+    },
+    {
+      "id": "4",
+      "postId": 3,
+      "name": "Maria Gil",
+      "email": "maria@example.com",
+      "body": "Los tipos ayudan mucho cuando el proyecto empieza a crecer."
+    },
+    {
+      "id": "5",
+      "postId": 4,
+      "name": "Pablo Diaz",
+      "email": "pablo@example.com",
+      "body": "Muy util el recordatorio de usar key estable en cada elemento."
+    },
+    {
+      "id": "6",
+      "postId": 5,
+      "name": "Elena Mora",
+      "email": "elena@example.com",
+      "body": "Excelente ejemplo para practicar inputs controlados en clase."
+    },
+    {
+      "id": "7",
+      "postId": 6,
+      "name": "Diego Torres",
+      "email": "diego@example.com",
+      "body": "Falta practicar retries, pero para comenzar esta bien."
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
